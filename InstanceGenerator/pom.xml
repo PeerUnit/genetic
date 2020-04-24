@@ -15,11 +15,11 @@
     </plugins>
   </build>
   <dependencies>
-<dependency>
-    <groupId>log4j</groupId>
-    <artifactId>log4j</artifactId>
-    <version>1.2.16</version>
-</dependency>
+      <dependency>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-core</artifactId>
+          <version>2.13.1</version>
+      </dependency>
     <dependency>
       <groupId>fr.inria.mdca.core</groupId>
       <artifactId>fr.inria.mdca.core</artifactId>
